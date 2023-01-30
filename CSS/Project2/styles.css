@@ -1,0 +1,114 @@
+body {
+    background: #eaf0f2;
+}
+
+.nav {
+    border: 100px;
+    list-style-type: none;
+    background: #263238;
+    margin: 0px;
+    padding: 0px;
+    overflow: visible;
+
+}
+
+.mainNav {
+    float: left;
+}
+
+.topNav {
+    display: block;
+    padding: 25px;
+    font-size: 25px;
+    height: 50px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.topNav:hover:not(.logo) {
+    background: #546E7A;
+}
+
+.logo {
+    font-size: 42px;
+    padding: 15px, 35px, 15px, 35px;
+    line-height: 35px;
+}
+
+.title {
+    font-family: Oswald, sans-serif;
+    color:#263238;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-left: 40px;
+}
+
+footer {
+    background: #263238;
+    font-size: 18px;
+    padding: 50px;
+    margin-top: 75px;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+}
+
+.thenews {
+    color: #B0BEC5;
+    font-size: 28px;
+}
+
+.copyright {
+    color: #B0BEC5;
+    font-size: 16px;
+}
+
+.botNav {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.botNav:hover {
+    background: #CFD8DC;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    max-height: 0px;
+    overflow: hidden;
+    display: none;
+    position: absolute;
+    background-color: #263238;
+    margin-top: 100px;
+
+}
+
+.dropdown:hover .dropdownContent {
+    transition: 1s;
+    max-height: 200px;
+    display: block;
+    
+}
+
+.dropdownContent a {
+    display: block;
+    font-size: 25px;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px 20px 15px 20px;
+}
+
+.dropdownContent a:hover {
+    background-color: #CFD8DC;
+}

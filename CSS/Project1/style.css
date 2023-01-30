@@ -1,0 +1,119 @@
+.cat {
+    background-color: black;
+}
+#dog {
+    color: white;
+}
+/*Task 1: The text is white with a black background and a 1px solid red border*/
+
+/*Task 2: There is just a big black box. This is because the text is also black
+since the ID of dog isn't applied and that is what is making the text white,
+otherwise default black.*/
+
+#mouse {
+    color: yellow;
+}
+
+/*Task 3: It is still a black box because of the same reasons for task 2.*/
+
+#bird {
+    color: lightgreen;
+}
+
+/*Task 4: px width is fixed to a px size, % and vw seem to operate similarly
+in taking the percentage of the size of the viewer's window. Maybe when more 
+variables and effects are added, there will be a difference between the two. */
+
+/*Task 6: The fourth h1 is touching the third h1 because of the margins of the 
+third h1, since the bottom of the margin is 0px. To fix this, we should increase
+the bottom margin of the third h1, or increase the top margin of the fourth h1 */
+
+/*Task 8: The image was really big initially. 
+
+The image did not center because
+image is an inline element and not a block element, a block element takes up the whole
+line and will center according to the whole block, where as an inline element only 
+takes up the space it needs to and doesn't fill up the whole line. 
+
+The div is the size of the whole page from left to right, this means the div is
+probably a block element that takes up the whole line. 
+
+The image got really small with respect to the div.
+
+The image went back to its original size, and the div got bigger to fit the image
+
+The image went back to the original size of the div I believe.
+
+The small white space might be because the image size does not perfectly fit the 
+percentage of the div */
+
+p {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.changeFont {
+    color: darkblue;
+}
+
+#p3 {
+    color: red;
+}
+
+p.changeFont {
+    color: green;
+}
+
+/* Task 11: Only the third p tag changed color because it is the only p that has the
+id of p3 that I specifically selected to change. 
+
+Nothing changed since the class and id tag are both more SPECIFIC and have higher
+priority over general selector tags
+
+Now the font color changed because we were selecting the class, and since it was the
+last one, it overrided the first one. The third element didn't change because id tags
+are more specific and have priority over class tags */
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#first {
+    background-color: green;
+    text-align: left;
+    width: 33%;
+}
+#second {
+    background-color: yellow;
+    text-align: center;
+    margin: auto;
+    width: 33%;
+}
+#third {
+    background-color: red;
+    text-align: right;
+    float: right;
+    width: 33%;
+}
+
+.red {
+    border: 10px red solid;
+    padding: 20px;
+    width: 100px;
+}
+
+#blue {
+    background-color: blue;
+    
+}
+
+#green {
+    margin: auto;
+    background-color: green;
+}
+
+#orange {
+    float: right;
+    background-color: orange;
+}
