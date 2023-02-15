@@ -1,21 +1,13 @@
+const nums = []
 
+nums.push(parseInt(prompt("Give a number.")))
+nums.push(parseInt(prompt("Give another number.")))
+nums.push(parseInt(prompt("Give a number again.")))
 
-var x = parseInt(prompt("Give a number."))
-var y = parseInt(prompt("Give another number."))
-var z = parseInt(prompt("Give a number again."))
+let total = 0
 
-var total = 0
-
-for (var i = 0; i < 3; i++) {
-    if (i === 0) {
-        total += x
-    }
-    else if (i === 1) {
-        total += y
-    }
-    else {
-        total += z
-    }
+for (let i = 0; i < 3; i++) {
+    total += nums[i]
 }
 
 alert("The sum of all your numbers is " + total + ".")
