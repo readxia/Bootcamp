@@ -1,0 +1,11 @@
+h1 {
+    align-items: center;
+    margin: auto;
+    font-size: 75px;
+}
+
+body {
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
