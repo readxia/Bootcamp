@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The News</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <script src="https://kit.fontawesome.com/e38d1f960b.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body style="margin: 0px">
+        <ul class="nav">
+            <li class="mainNav"><a href="#home" class="topNav logo">The News <i class="fa-regular fa-comment"></i></a></li>
+
+            <div class="dropdown">
+                <li class="mainNav"><a href="#trending" class="topNav">Trending</a></li>
+                <div class="dropdownContent">
+                    <a href="#entertainment">Entertainment</a>
+                    <a href="#travel">Travel</a>
+                    <a href="#education">Education</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li class="mainNav"><a href="#tech" class="topNav">Tech</a></li>
+                <div class="dropdownContent">
+                    <a href="#latest">Latest</a>
+                    <a href="#programming">Programming</a>
+                    <a href="#appreviews">App Reviews</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li class="mainNav"><a href="#politics" class="topNav">Politics</a></li>
+                <div class="dropdownContent">
+                    <a href="#headlines">Headlines</a>
+                    <a href="#thefacts">The Facts</a>
+                    <a href="#thegossip">The Gossip</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li class="mainNav"><a href="#about" class="topNav">About</a></li>
+                <div class="dropdownContent">
+                    <a href="#ourstory">Our Story</a>
+                    <a href="#donate">Donate</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li class="mainNav"><a href="#faq" class="topNav">FAQ</a></li>
+                <div class="dropdownContent">
+                    <a href="#ourpolicy">Our Policy</a>
+                    <a href="#careers">Careers</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <li class="mainNav"><a href="#contact" class="topNav">Contact</a></li>
+                <div class="dropdownContent">
+                    <a href="#email">Email</a>
+                    <a href="#phone">Phone</a>
+                </div>
+            </div>
+            
+        </ul>
+
+        <br>
+
+        <p class="title">Image Gallery of your favorite treats</p>
+        <img src="1.jpg" width="800px" style="padding-left: 40px"></img>
+        <br>
+        <button onClick="prevImage()" style="margin-left: 40px">Prev</button>
+        <button onClick='nextImage()'>Next</button>
+        <script src="script.js"></script>
+    </body>
+    <footer>
+        <p class="thenews">The News</p>
+        <ul class="nav" style="display: inline-block">
+            <li class="mainNav"><a href="#home" class="botNav">Home</a></li>
+            <li class="mainNav"><a href="#tech" class="botNav">Tech</a></li>
+            <li class="mainNav"><a href="#politics" class="botNav">Politics</a></li>
+            <li class="mainNav"><a href="#about" class="botNav">About</a></li>
+            <li class="mainNav"><a href="#faq" class="botNav">FAQ</a></li>
+            <li class="mainNav"><a href="#contact" class="botNav">Contact</a></li>
+        </ul>
+        <p class="copyright">The News (c) 1983</p>
+    </footer>
+</html>

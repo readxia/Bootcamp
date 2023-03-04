@@ -1,0 +1,40 @@
+body {
+    background-color: tan;
+}
+
+.accordion {
+    margin: 0 auto;
+    width: 50%;
+}
+
+#castHeader {
+    font-size: 1.5em;
+    text-align: center;
+    background-color: peachPuff;
+    width: 20%;
+    border: 3px solid purple;
+ }
+
+ #cast li {
+     font-size: 1.5em;
+     text-align: center;
+     color: purple;
+     background-color: peachPuff;
+     width: 10%;
+    margin-bottom: 5px;
+    border: 3px solid purple;
+ }
+
+ #outerDiv1 {
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    border: grey ridge 10px;
+ }
+
+ #innerDiv1 {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border: black solid 2px;
+ }
