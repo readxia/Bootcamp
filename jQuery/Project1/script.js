@@ -17,3 +17,12 @@ $(':text').keydown(function() {
 })
 
 let dropdownValue = $("select").val()
+
+$('li').addClass('box')
+$('img').addClass('imageBox')
+$('li:first').removeClass('box').addClass('imageBox')
+$('li:last').removeClass('box')
+
+$('input:text').toggleClass('box')
+$('img').fadeOut()
+$('img').fadeIn()
