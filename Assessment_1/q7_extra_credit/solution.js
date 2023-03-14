@@ -16,3 +16,8 @@ function squareConcat(n) {
     }
     return ret
 }
+
+//Feedback - Great Job!!!  100
+
+console.log(squareConcat(9119)) //811181
+console.log(squareConcat(44)) //1616
