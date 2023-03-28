@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2ea4cb;
+    background-size: cover;
+    font-weight: bold;
+}
+
+h1 {
+    color: #000c51;
+    text-shadow: 1px 1px 3px #f9f5f5;
+    font-weight: bold;
+}
+
+label {
+    color: white;
+    font-size: 36px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.btn:hover {
+    background-color: #853935;
+}
+
+.container {
+    margin: 25px auto;
+    background-color: #6767676d;
+    height: 80%;
+}
+
+#resultsBox {
+    height: 34em;
+    overflow: scroll;
+    background-color: antiquewhite;
+    padding: 2%;
+    margin: 15px auto;
+    width: 90%;
+}
