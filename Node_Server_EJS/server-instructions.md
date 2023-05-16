@@ -15,3 +15,5 @@ npm i express
     app.listen(port, ()=> console.log(`server on port ${port}`))
 npm i ejs (to add ejs)
 must have 'views' folder
+    views folder will contain pages
+partials folder will be in views folder
