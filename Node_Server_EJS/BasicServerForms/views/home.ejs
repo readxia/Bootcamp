@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+
+</head>
+<body>
+    <h1>homepage</h1>
+    <form action="/senddata" method="get">
+
+        <label>
+            First Name:
+            <!-- name attribute is the KEY to the object -->
+            <input type="text" name="fname">
+        </label>
+
+        <br>
+
+        <label>
+            Are you alive?
+            <!-- name all the same to make them mutually exclusive -->
+            <!-- value is the value returned if you check the button -->
+            <input type="radio" name="alive" value='alive' checked>Yes
+            <input type="radio" name="alive" value='dead'>No
+            <input type="radio" name="alive" value='zombie'>Zombie
+        </label>
+
+        <br>
+
+        <label>
+            Are you married?
+            <input type="radio" name="married" value='married'checked>Yes
+            <input type="radio" name="married" value='single'>No
+            <input type="radio" name="married" value='complicated'>Complicated
+        </label>
+        
+        <br>
+
+        <button type="submit">CLICK ME</button>
+    </form>
+
+    <br><br><br>
+
+    <!-- POST FORM
+    confidential information, large amounts of data, big files, does not allow caching
+    data is invisible to the user, does not show up on the URL -->
+    <h1>POST FORM</h1>
+    <br>
+    <form action="/postdata" method="post">
+        <label>
+            First Name:
+            <input type="text" name="fname">
+        </label>
+        
+        <br>
+
+        <button type="submit">Click me!</button>
+    </form>
+</body>

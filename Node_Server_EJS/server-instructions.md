@@ -17,3 +17,8 @@ npm i ejs (to add ejs)
 must have 'views' folder
     views folder will contain pages
 partials folder will be in views folder
+partials can be implemented with includes
+    <%- includes('partials/componentName.ejs') %>
+
+npm i node-fetch
+(allows you to fetch outside of the browser)
