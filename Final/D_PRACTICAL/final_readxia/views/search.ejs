@@ -1,10 +1,15 @@
 <%- include('partials/searchBar') %>
 
+<!-- search page -->
+
 <h2><%=searchTerm %> Gifs!</h2>
+<!-- using map to loop thru all the gif urls and display them in img tags -->
 <% gifList.map(url => { %>
     <img width="25%" style="margin: 30px" src=<%= url %> />
 <% }) %>
 
+<!-- allows user to go to the next 25 gifs, we keep track of the page we are on by the req.params, and the search term is kept and passed on as well thru the req.params
+it's a little work around i know it's not the greatest -->
 
 <form action="/searchForGifs/<%=page + 1%>">
     <input type="text" name='search' value='<%=searchTerm%>' style="display: none;"/>

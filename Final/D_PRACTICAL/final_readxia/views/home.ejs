@@ -1,6 +1,9 @@
 <%- include('partials/searchBar') %>
+
+<!-- homepage with trending gifs -->
 <h2>TRENDING GIFS!</h2>
 <div style='align-items: center;'>
+    <!-- using map to loop thru all the gif urls and display them in img tags -->
     <% gifList.map(url => { %>
         <img width="25%" style="margin: 30px" src=<%= url %> />
     <% }) %>
