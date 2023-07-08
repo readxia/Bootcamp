@@ -9,7 +9,7 @@ npm i express
     app.get('/', (req, res)=> {
         res.send('hello')
         OR
-        res.render(page.ejs) // this page should be in the views folder
+        res.render('page.ejs') // this page should be in the views folder
     })
 
     app.listen(port, ()=> console.log(`server on port ${port}`))
@@ -25,7 +25,7 @@ npm i node-fetch@2
 (allows you to fetch outside of the browser)
 
 npm i morgan -D
-(allows it not to be a dependency)
+(allows it not to be a dependency) (morgan just helps console logs things i think)
     const logger = require('morgan')
     app.use(logger('dev'))
 

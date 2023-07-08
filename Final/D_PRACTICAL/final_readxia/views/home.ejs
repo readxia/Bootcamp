@@ -1,0 +1,7 @@
+<%- include('partials/searchBar') %>
+<h2>TRENDING GIFS!</h2>
+<div style='align-items: center;'>
+    <% gifList.map(url => { %>
+        <img width="25%" style="margin: 30px" src=<%= url %> />
+    <% }) %>
+</div>

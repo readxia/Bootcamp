@@ -1,0 +1,17 @@
+<%- include('header.ejs') %>
+
+<h1>Welcome to the Newsfeed</h1>
+
+<br>
+<div>
+    <% if (isAuthenticated) { %>
+        <%- 'You are logged in as "' + user.name + '"' %>
+    <% } %>
+</div>
+<div>
+    <a href="/">Home</a>
+</div>
+
+<div>
+    <a href="/logout">Log out</a>
+</div>

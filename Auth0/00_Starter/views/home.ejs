@@ -1,0 +1,32 @@
+<%- include('header.ejs') %>
+    <h1>Hello!! Class of ACC Software Bootcamp</h1>
+
+    <div>
+        <% if (isAuthenticated) { %>
+            <%- 'You are logged in as "' + user.name + '"' %>
+            <br /><br />
+            <div>
+                <a href="/logout">Log Out</a>
+                <a href="/newsfeed">Newsfeed</a>
+            </div>
+        <% } else { %>
+            <%- 'You are logged out' %>
+            <div>
+                <div>
+                    <a href="/signup">Sign up</a>
+                </div>
+                <div>
+                    <a href="/login">Login</a>
+                </div>
+            </div>
+        <% } %>
+
+
+
+
+        <!-- <a href="/logout">Log Out</a>
+        <a href="/newsfeed">Newsfeed</a>
+        <a href="/signup">Sign up</a>
+        <a href="/login">Log In</a> -->
+    </div>
+    </div>

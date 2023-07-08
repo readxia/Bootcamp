@@ -1,0 +1,26 @@
+{
+  "name": "passport",
+  "version": "1.0.0",
+  "description": "Demo using Auth0 with ExpressJS App",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=3001 nodemon -L app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Auth0",
+    "Hosted",
+    "ExpressJS",
+    "Authentication",
+    "Authorization"
+  ],
+  "author": "Piyush Mehta",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.16.0",
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,12 @@
+<%- include('partials/searchBar') %>
+
+<h2><%=searchTerm %> Gifs!</h2>
+<% gifList.map(url => { %>
+    <img width="25%" style="margin: 30px" src=<%= url %> />
+<% }) %>
+
+
+<form action="/searchForGifs/<%=page + 1%>">
+    <input type="text" name='search' value='<%=searchTerm%>' style="display: none;"/>
+    <button type="submit" style='background-color: green; height: 100px; width: 100%; font-size: 20px' value="submit">Next Page</button>
+</form>
